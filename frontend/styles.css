@@ -8,10 +8,11 @@ body {
 header {
     background-color: #6F4E37;
     color: #DEAC80;
-    padding: 10px 0;
+    
 }
 
 header nav {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     width: 80%;
@@ -26,16 +27,19 @@ header .logo {
 }
 
 header ul {
+    display: inline;
+    align-items: center;
     list-style: none;
-    display: inline-flex;
-    align-items: flex-end;
     gap: 20px;
+    text-align: center;
 }
 
 header ul li a {
     color: #DEAC80;
     text-decoration: none;
     font-size: 18px;
+    text-align: end;
+    
 }
 
 header ul li a:hover {
@@ -49,6 +53,13 @@ main {
     background-color: #ECB176;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Collar-Jobs img {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    
 }
 
 footer {
