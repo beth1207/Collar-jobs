@@ -12,7 +12,6 @@ header {
 }
 
 header nav {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     width: 80%;
@@ -28,7 +27,8 @@ header .logo {
 
 header ul {
     list-style: none;
-    display: flex;
+    display: inline-flex;
+    align-items: flex-end;
     gap: 20px;
 }
 
@@ -56,4 +56,8 @@ footer {
     padding: 10px 0;
     background-color: #6F4E37;
     color: #DEAC80;
+}
+
+img {
+    width: 5%;
 }
